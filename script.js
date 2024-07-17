@@ -3,7 +3,7 @@ function revealMessage() {
     let img1 = document.getElementById("img1");
     let img2 = document.getElementById("img2");
     let img3 = document.getElementById("img3");
-    const backgroundMusic = document.getElementById("backgroundMusic");
+    let backgroundMusic = new Audio("Mandire Hade.mp3");
 
     hiddenMessage.style.display = "block";
     hiddenMessage.innerHTML = "<span class='typing-animation' style='font-weight: bold; color: red;'>I love you forever Baby! ❤️🥺🌍😘</span>";
