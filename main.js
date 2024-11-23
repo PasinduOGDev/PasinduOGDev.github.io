@@ -25,7 +25,7 @@ function videoPlayback() {
     video.width = 640;
     video.height = 360;
     video.autoplay = true; // Autoplay the video once it's ready
-    video.muted = false; // Optionally mute the video if desired
+    video.muted = true; // Optionally mute the video if desired
 
     // Add a video source
     const source = document.createElement('source');
